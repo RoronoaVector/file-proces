@@ -1,0 +1,7 @@
+kafka:
+ bootstrapAddress: 127.0.0.1:9092
+ topic:
+  destination: topic1
+
+files:
+ path: /Users/victorgomez/files

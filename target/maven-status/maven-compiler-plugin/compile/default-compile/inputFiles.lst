@@ -1,0 +1,8 @@
+/Users/victorgomez/workspace/file-proces/src/main/java/com/victor/fileproces/producer/KafkaProducer.java
+/Users/victorgomez/workspace/file-proces/src/main/java/com/victor/fileproces/FileProcesApplication.java
+/Users/victorgomez/workspace/file-proces/src/main/java/com/victor/fileproces/dto/FileDto.java
+/Users/victorgomez/workspace/file-proces/src/main/java/com/victor/fileproces/configuration/SpringConfig.java
+/Users/victorgomez/workspace/file-proces/src/main/java/com/victor/fileproces/configuration/KafkaProducerConfig.java
+/Users/victorgomez/workspace/file-proces/src/main/java/com/victor/fileproces/service/impl/ReadFileServiceImpl.java
+/Users/victorgomez/workspace/file-proces/src/main/java/com/victor/fileproces/schedule/ReadFileSchedule.java
+/Users/victorgomez/workspace/file-proces/src/main/java/com/victor/fileproces/service/ReadFileService.java

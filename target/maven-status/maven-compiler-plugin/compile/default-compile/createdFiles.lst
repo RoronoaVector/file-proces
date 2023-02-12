@@ -1,0 +1,9 @@
+com/victor/fileproces/dto/FileDto$FileDtoBuilder.class
+com/victor/fileproces/service/ReadFileService.class
+com/victor/fileproces/service/impl/ReadFileServiceImpl.class
+com/victor/fileproces/configuration/KafkaProducerConfig.class
+com/victor/fileproces/FileProcesApplication.class
+com/victor/fileproces/schedule/ReadFileSchedule.class
+com/victor/fileproces/configuration/SpringConfig.class
+com/victor/fileproces/producer/KafkaProducer.class
+com/victor/fileproces/dto/FileDto.class
