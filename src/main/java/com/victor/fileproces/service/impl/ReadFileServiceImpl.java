@@ -64,8 +64,8 @@ public class ReadFileServiceImpl implements ReadFileService {
             }
 
             fileDto = FileDto.builder()
-                    .name(data.get(0))
-                    .sourName(data.get(1))
+                    .nameUser(data.get(0))
+                    .surname(data.get(1))
                     .priority(data.get(2))
                     .description(data.get(3))
                     .build();

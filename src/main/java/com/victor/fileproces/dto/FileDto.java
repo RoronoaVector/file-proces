@@ -9,8 +9,8 @@ import lombok.*;
 @Builder(toBuilder = true)
 public class FileDto {
 
-    private String name;
-    private String sourName;
+    private String nameUser;
+    private String surname;
     private String priority;
     private String description;
 
