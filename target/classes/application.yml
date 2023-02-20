@@ -2,9 +2,11 @@ server:
  port: 8080
 
 kafka:
- bootstrapAddress: 127.0.0.1:9092
+ bootstrapAddress: 127.0.0.1:29092
  topic:
-  destination: topic1
+  destination:
+   files: files
+   employees: employees
 
 files:
  path: /Users/victorgomez/files

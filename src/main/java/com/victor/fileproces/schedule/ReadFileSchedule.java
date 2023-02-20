@@ -18,7 +18,6 @@ public class ReadFileSchedule {
 
     @Scheduled(fixedDelay = 10000)//10 segundus
     public void scheduleFixedDelayTask() {
-        System.out.println("Llamada schedule");
-        service.readFiles(path);//mover el path al fichero de config
+        service.readFiles(path);
     }
 }

@@ -1,6 +1,7 @@
 package com.victor.fileproces.configuration;
 
 import com.victor.fileproces.dto.FileDto;
+import com.victor.fileproces.dto.FileEmployeeDto;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
 import org.springframework.beans.factory.annotation.Value;
@@ -35,8 +36,13 @@ public class KafkaProducerConfig {
         return new DefaultKafkaProducerFactory<>(configProps);
     }
 
-    @Bean
+    @Bean("FileTemplate")
     public KafkaTemplate<String, FileDto> kafkaTemplate() {
+        return new KafkaTemplate(producerFactory());
+    }
+
+    @Bean("EmployeeTemplate")
+    public KafkaTemplate<String, FileEmployeeDto> kafkaTemplateEmployee() {
         return new KafkaTemplate(producerFactory());
     }
 }
