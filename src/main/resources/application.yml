@@ -10,3 +10,6 @@ kafka:
 
 files:
  path: /Users/victorgomez/files
+
+client:
+ database-connection: localhost:8081

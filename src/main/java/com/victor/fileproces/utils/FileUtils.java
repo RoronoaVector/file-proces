@@ -9,6 +9,8 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
+//posible clase de utilidades para reutilizar metodos de procesamiento de ficheros,
+// se podria refactorizar el codigo par utilizar esta clase
 public class FileUtils {
 
     public static List<String> readFile(File file) throws IOException {

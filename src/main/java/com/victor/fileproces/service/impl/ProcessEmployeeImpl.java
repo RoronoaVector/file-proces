@@ -34,6 +34,7 @@ public class ProcessEmployeeImpl implements ProcessEmployee {
 
     }
 
+    //otra posible forma de parsear los datos del fichero
     private FileEmployeeDto parseFile(String line) {
         List<String> fields = List.of(line.split(","));
         return FileEmployeeDto.builder()
@@ -41,7 +42,7 @@ public class ProcessEmployeeImpl implements ProcessEmployee {
                 .surname(fields.get(1))
                 .telephone(fields.get(2))
                 .mail(fields.get(3))
-                .enterprise(fields.get(4))//quizas este campo se inserta con un ";" al final por el formato de csv
+                .enterprise(fields.get(4))
                 .build();
     }
 

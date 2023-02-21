@@ -1,4 +1,0 @@
-Nombre:Victor
-Apellidos:Gomez Martin
-Urgencia:Media
-Descripcion:Esto es un buen ejemplo de descripcion para probar que no explota

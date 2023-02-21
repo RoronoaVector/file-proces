@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(value = "jplaceholder", url = "https://localhost:8080")//TODO mover a properties
+@FeignClient(value = "database-connector", url = "${client.database-connection}")
 public interface DBConnectorClient {
 
     @GetMapping("/employees")
